@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__btn {
+        background: none;
+        outline: none;
+
+        border: 1px solid #cecece;
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            background: #cecece;
+        }
+    }
+
+    &__arrow {
+        // width: 20px;
+        // height: 20px;
+    }
+
+    &__number {
+        border: 1px solid #cecece;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        transition: all .2s;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background: #cecece;
+        }
+    }
+
+    .active {
+        background: #cecece;
+    }
+}
